@@ -39,8 +39,6 @@ const SwipeButton = ({
           useNativeDriver: false,
         }),
         onPanResponderRelease: (e, gesture) => {
-          console.log('gesture 너비', gesture);
-          console.log('container 너비', containerSize?.width * 0.7);
           if (
             gesture.moveX >
             (containerSize?.width ?? 1) * (completeBaseLinePercentage / 100)
@@ -52,9 +50,8 @@ const SwipeButton = ({
                 (completeBaseLinePercentage / 100),
               y: 0,
             });
-            setIsComplete(true); // 해당 Flag State 에 따른 다른 로직 필요. 로직 메모이제이션또한 필요.
+            setIsComplete(true);
           } else {
-            // slider 초기화
             pan.setValue({
               x: 0,
               y: 0,
