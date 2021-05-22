@@ -1,22 +1,22 @@
 {
-  "name": "react-native-swipe-button",
+  "name": "react-native-swipe-bar",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/meohyun2/react-native-swipe-button.git"
+    "url": "git+https://github.com/meohyun2/react-native-swipe-bar.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "meohyun2",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/meohyun2/react-native-swipe-button/issues"
+    "url": "https://github.com/meohyun2/react-native-swipe-bar/issues"
   },
-  "homepage": "https://github.com/meohyun2/react-native-swipe-button#readme",
+  "homepage": "https://github.com/meohyun2/react-native-swipe-bar#readme",
   "devDependencies": {
     "@babel/core": "^7.10.5",
     "@babel/runtime": "^7.10.5",
@@ -31,7 +31,7 @@
     "metro-react-native-babel-preset": "^0.56.0",
     "prettier": "^2.0.5",
     "react": "16.9.0",
-    "react-native": "0.61.5",
+    "react-native": "0.64.1",
     "react-test-renderer": "16.9.0",
     "typescript": "^3.9.7"
   },
